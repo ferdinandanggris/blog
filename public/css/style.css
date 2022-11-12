@@ -20,5 +20,22 @@ body {
 
 .foot {
     /* background-color: #97d7fd; */
-    background-color: #353f4c;
+    /* background-color: #353f4c; */
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.text-primary{
+    --tw-text-opacity: 1 !important;
+    color: rgb(20 184 166 / var(--tw-text-opacity)) !important;
+}
+
+.bg-primary{
+        --tw-text-opacity: 1 !important;
+        background-color: rgb(20 184 166 / var(--tw-text-opacity)) !important;
+}
+
+.text-secondary{
+    --tw-text-opacity: 1 !important;
+    color: rgb(100 116 139 / var(--tw-text-opacity)) !important;
 }

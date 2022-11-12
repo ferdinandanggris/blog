@@ -21,10 +21,10 @@
             </form>
         </li>
     </ul>
-    <h3 class="mt-5">{{$post->title}}</h3>
+    <h3 class="mt-5"  >{{$post->title}}</h3>
     <p class="text-muted">Category : <b><a href="/category/{{$post->category->slug}}">{{$post->category->name}}</a></b></p>
     <p class="">Last updated : {{$post->updated_at}}</p>
-    <img src="/storage/{{$post->image}}" class="img-fluid" alt="">
+    <img style="width: 50vw; height: 350px; object-fit: cover;display: block;margin: auto" src="/storage/{{$post->image}}" class="img-fluid" alt="">
     <p>{!!$post->body!!}</p>
 </main>
 @endsection
