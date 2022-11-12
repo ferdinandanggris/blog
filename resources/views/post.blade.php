@@ -9,6 +9,6 @@
     <img class="img-fluid" style="width: 50vw; height: 350px; object-fit: cover;display: block;margin: auto" src="/storage/{{$post->image}}" alt="">
     <p>{!!$post->body!!}</p>
 </article>
-<a class="btn btn-warning" href="/">Ke Halaman Utama</a>
+<a class="btn bg-primary text-white" href="/"><i class="bi bi-chevron-double-left"></i> Ke Halaman Utama</a>
 </div>
 @endsection
