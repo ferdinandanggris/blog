@@ -25,7 +25,7 @@
 
 <body>
     @include('partials.navbar')
-    <div class="main mt-5 pt-3">
+    <div class="main mt-5 pt-3" style="min-height: 500px">
         @yield('container')
     </div>
     @include('partials.footer')
