@@ -15,7 +15,7 @@
                 <div class="col-md-4 mt-4 ">
                     <a href="/category/{{ $category->slug }}">
                         <div class="card bg-dark shadow text-white border-0"
-                            style="width: 300px; height: 350px; overflow: hidden;">
+                            style="max-width: 300px; max-height: 350px; overflow: hidden;">
                             <img src="/storage/{{ $category->image }}" class="card-img" alt="">
                             <div class="card-img-overlay d-flex align-items-center p-0">
                                 <h5 class="card-title flex-fill text-center fs-5 p-4 m-0"
